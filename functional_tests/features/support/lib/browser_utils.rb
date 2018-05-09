@@ -19,11 +19,11 @@ class BrowserUtils
 
     #Increase timeout to prevent very first request to system timing out due to the amount of work the first page access creates
     http = Selenium::WebDriver::Remote::Http::Default.new
-    http.timeout = 180
+    http.read_timeout = 180
 
     if selected_browser.eql?('chrome')
       http = Selenium::WebDriver::Remote::Http::Default.new
-      http.timeout = 10
+      http.read_timeout = 10
       if custom_useragent.nil?
         switches = ["--disable-web-security", "--disable-extensions", "--disable-popup-blocking"]
       else

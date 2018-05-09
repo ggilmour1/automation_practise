@@ -1,14 +1,11 @@
 require 'rubygems'
 require "bundler/setup"
-require 'active_support/all'
 require 'watir-webdriver'
 require 'fileutils'
 require 'erb'
 require 'mechanize'
 require 'json'
-require 'uuid'
 require 'methodize'
-require 'random_data'
 require 'rack'
 
 

@@ -1,0 +1,6 @@
+#pre-processed by erb so can use ruby scripting in here if required
+default: -S --strict -r features --tags ~@wip --format pretty --format html -o report/results.html --format rerun --out rerun.txt
+color: -S --strict -r features --tags ~@wip --color --format pretty --format html -o report/results.html
+usage: -S --strict -r features --format usage
+#cucumber --profile rerun @rerun.txt    [to run just the failed tests again]
+rerun: -S --strict -r features/step_definitions -r features/support --format pretty --format html -o report/rerun-results.html

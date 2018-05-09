@@ -1,0 +1,25 @@
+site:
+  base_domain: "http://automationpractice.com"
+  home: "index.php"
+  username: "john.doe@mailinator.com"
+  password: "Pa$$w0rd"
+
+products:
+  faded_t-shirt:
+    id: "product_1_3_0_62167"
+    title: "Faded Short Sleeve T-shirts"
+    model: "demo_1"
+    price: "16.51"
+  blouse:
+    id:  "product_2_9_0_62167"
+    title: "Blouse"
+    model: "demo_2"
+    price: "27.00"
+  printed_dress:
+    title: "Printed Dress"
+    model: "demo_3"
+    price: "26.00"
+
+
+
+

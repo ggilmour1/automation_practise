@@ -32,7 +32,14 @@ You also need to install the Chrome Driver from http://chromedriver.chromium.org
 The latest version (and the one that I used to test with is v2.38, but check as there can be issues if the browser version and driver versions are not supported, so 
 being at the latest of each gives the greatest chance of success. 
 
-Make sure that the location of the ChromeDriver ius added to the path. 
+Make sure that the location of the ChromeDriver ius added to the path.
+
+Install Ansicon
+===============
+To add somne colour to you test output, install Ansicon
+
+See the Documentation folder and the ansi184.zip, extract this, add it to your path
+then run ansicon -i  to install it.
 
 Run the Tests
 =============
